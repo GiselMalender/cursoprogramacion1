@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylo.css">
+</head>
+
+<body>
+    <nav class="navbar fidex-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cafeteria</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home ></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Novedades">Café</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Métodos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Té</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locales</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div id="home" class="row aling-items-center hero">
+            <div class="col-lg-3 y offset-lg-2"
+                style="vertical-align: middle; padding-top: 25vh; text-shadow: 2px 1px 2px rgba(0,0,0,0.52);">
+                <p>Bajada</p>
+                <h1>Le Petit Café</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ex assumenda laborum dolore facilis
+                    sapiente impedit incidunt officiis magni. Iusto beatae fuga possimus, provident molestiae quas! Ea
+                    nostrum sequi iure!Le Petit Café</p>
+            </div>
+        </div>
+        <div id="Novedades" class="row py-4">
+            <div class="col-md-5 col-sm-12 offset-md-2 py-3">
+                <h2>Novedades</h2>
+                <ul class="lista-novedades">
+                    <li><a href="#" data-toggle="modal" data-target="#modalejemplo"><img src="img/cafe_2.jpg"
+                                style="max-width:150px"> Nueva variedad</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#modalejemplo"><img src="img/cafe_3.jpg"
+                                style="max-width:150px"> Nueva variedad</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#modalejemplo"><img src="img/cafe.jpg"
+                                style="max-width:150px"> Nueva variedad</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#modalejemplo"><img src="img/taza-te-.jpg"
+                                style="max-width:150px"> Nueva variedad</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#modalejemplo"><img src="img/matcha-latte.jpg"
+                                style="max-width:150px"> Nueva variedad</a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-3">
+                <div class=" rounded py-3 testimonios">
+                    <h2 class="text-center">Testimonio</h2>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonio">
+                                    <h5>"El mejor café del mundo"!!</h5>
+                                    <p>Andrea, Don Torcuato</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"El mejor café matcha que probé"!</h5>
+                                    <p>Marco, San Isidro</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"El mejor lugar para tomar el té con amigas"!!!</h5>
+                                    <p>Lujan, Ramos Mejias</p>
+                                </div>
+                            </div>
+                            
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--cierra testimonio-->
+            </div>
+        
+        </div><!--cierra novedades-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalejemplo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Nuevas Recetas</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quis vel modi, officiis,
+                        voluptatibus quisquam adipisci inventore, nemo mollitia maiores asperiores ullam explicabo
+                        expedita excepturi officia assumenda perspiciatis consequatur molestias.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p class="text-center">Diseñado por Gisel Malender</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
