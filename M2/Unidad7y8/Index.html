@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/stylo.css">
 </head>
@@ -24,23 +24,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home ></a>
+                    <a class="nav-link"  data-scroll href="#home">Home ></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Novedades">Café</a>
+                    <a class="nav-link" data-scroll href="#Novedades">Novedades</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Métodos</a>
+                    <a class="nav-link" data-scroll href="#acompanamientos">Nuestras especialidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Té</a>
+                    <a class="nav-link" data-scroll href="#testimonios">Testimonios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" data-scroll href="#nuestras-sucursales">Nuestras Sucursales</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Locales</a>
+                    <a class="nav-link" data-scroll href="#Contactanos">Contactanos</a>
                 </li>
             </ul>
         </div>
@@ -75,7 +75,7 @@
 
             </div>
             <div class="col-md-3">
-                <div class=" rounded py-3 testimonios">
+                <div class=" rounded py-3 testimonios" id="testimonios">
                     <h2 class="text-center">Testimonio</h2>
 
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -104,7 +104,7 @@
                                     <p>Lujan, Ramos Mejias</p>
                                 </div>
                             </div>
-                            
+
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
                                 data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,8 +120,9 @@
                 </div>
                 <!--cierra testimonio-->
             </div>
-        
-        </div><!--cierra novedades-->
+
+        </div>
+        <!--cierra novedades-->
 
         <!-- Modal -->
         <div class="modal fade" id="modalejemplo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -142,6 +143,201 @@
                 </div>
             </div>
         </div>
+        <!--Incicio otros productos-->
+        <div id="acompanamientos" class="row aling-items-center py-4" style="text-align: center;">
+            <div class="col-md-6 col-lg-6 col-sm-12" style="padding-left: 10vw;padding-right: 10vw;">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div
+                            style="background-image: url(img2/cafe-medialunas.jpg); height: 200px; width: 100%; overflow: hidden;background-position: center; background-size: cover;">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12" style="padding-top: 20px;">
+                        <h3>Nuestras Especialidades</h3>
+                        <p style="text-align: justify;">No dudes en probar nuestras medias lunas calentitas para
+                            acompañar tu café o té preferido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12" style="padding-left: 10vw;padding-right: 10vw;">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div
+                            style="background-image: url(img2/macarronesjpg.jpg); height: 200px; width: 100%; overflow: hidden;background-position: center; background-size: cover;">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12" style="padding-top: 20px;">
+                        <h3>Nuestras Especialidades</h3>
+                        <p style="text-align: justify;">No dudes en probar nuestros deliciosos Macarrones para acompañar
+                            tu café o té preferido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12" style="padding-left: 10vw;padding-right: 10vw; padding-top: 40px">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div
+                            style="background-image: url(img2/milhojas.jpg); height: 200px; width: 100%; overflow: hidden;background-position: center; background-size: cover;">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12" style="padding-top: 20px;">
+                        <h3>Nuestras Especialidades</h3>
+                        <p style="text-align: justify;">No dudes en probar nuestras exquisita torta de mil hojas con
+                            crema para acompañar tu café o té preferido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12" style="padding-left: 10vw;padding-right: 10vw; padding-top: 40px;">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <div
+                            style="background-image: url(img2/delicious-cake.jpg); height: 200px; width: 100%; overflow: hidden;background-position: center; background-size: cover;">
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-12" style="padding-top: 20px;">
+                        <h3>Nuestras Especialidades</h3>
+                        <p style="text-align: justify;">No dudes en probar nuestras tortas de chocolate bañados de salsa
+                            de salsa de chocolate tentación para acompañar tu café o té preferido.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin de otros productos-->
+        
+        <!--Inicio de sucursales-->
+        <div id="nuestras-sucursales" class="row align-items-stretch my-3 staff py-4">
+            <div class=" col-md-12 " style="padding-left:10vw; padding-right: 10vw ;">
+                <h2 style="text-align: center;"> Nuestras sucursales</h2>
+                <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12" style="padding-bottom: 30px;">
+                            <div class="card sombra-card" >
+                                <div style="background-image: url(img3/interior-cafeteriajpg.jpg); width: 100%; height: 195px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h5 class="card-title"> Sucursal Palermo</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit optio in beatae
+                                        enim
+                                        nulla deleniti dignissimos veritatis, provident est quo magnam unde inventore nemo ad
+                                        quisquam deserunt animi distinctio!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" style="padding-bottom: 30px;">
+                            <div class="card sombra-card">
+                                <div style="background-image: url(img3/tienda-cafe.jpg); width: 100%; height: 195px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h5 class="card-title"> Sucursal Recoleta</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit optio in beatae
+                                        enim
+                                        nulla deleniti dignissimos veritatis, provident est quo magnam unde inventore nemo ad
+                                        quisquam deserunt animi distinctio!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" style="padding-bottom: 30px;">
+                            <div class="card sombra-card">
+                                <div style="background-image: url(img3/coffee-shop.jpg); width: 100%; height: 195px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h5 class="card-title"> Sucursal Puerto Madero</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit optio in beatae
+                                        enim
+                                        nulla deleniti dignissimos veritatis, provident est quo magnam unde inventore nemo ad
+                                        quisquam deserunt animi distinctio!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" style="padding-bottom: 30px;">
+                            <div class="card sombra-card">
+                                <div style="background-image: url(img3/cafeteria2.jpg); width: 100%; height: 195px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h5 class="card-title"> Sucursal San Isidro</h5>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit optio in beatae
+                                        enim
+                                        nulla deleniti dignissimos veritatis, provident est quo magnam unde inventore nemo ad
+                                        quisquam deserunt animi distinctio!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <!--fin de sucursales-->
+        </div>
+        <!--inicio mapa-->
+        <div id="Conocenos" class="row py-4">
+            <div class="col-md-4 offset-md-2">
+                <h3>Visitanos en Puerto Madero</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.078616371796!2d-58.36280808002045!3d-34.61416768303361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d6366f1c27%3A0x10c1cf638c0be29a!2sLobo%20Caf%C3%A9%20Puerto%20Madero!5e0!3m2!1ses-419!2suy!4v1630510037839!5m2!1ses-419!2suy"
+                         style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <!--fin de mapa-->
+            
+            <div class="col-md-4 mt-4 mt-sm-0" id="Contactanos">
+                <h2>Contactanos</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="...">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="...">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="ejemplo@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel">tel</label>
+                        <input type="text" class="form-control" id="tel" placeholder="...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                </form>
+            </div>
+            <!--fin de Contactanos-->
+        </div>
     </div>
 
 
@@ -154,8 +350,14 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js">
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href * = "#"]');
+    </script>
+
 </body>
 
 </html>

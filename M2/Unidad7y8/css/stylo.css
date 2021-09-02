@@ -18,7 +18,11 @@ h1,h2{
     min-height: 600px;
     color: white;  
 }
-
+ .sombra-card{
+    box-shadow: 6px 6px 10px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 10px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 10px -9px rgba(0,0,0,0.75);
+ }
 /*aca empieza novedades*/
 
 .lista-novedades{
@@ -87,3 +91,7 @@ margin: 4px 0;
     background-color: #000;
 }
 /*fin testimonio*/
+
+.staff{
+    background: #efefef;
+}
